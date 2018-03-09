@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98386C8F2043CB9F00407C32 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98386C8D2043CB9F00407C32 /* MenuViewController.swift */; };
+		98386C902043CB9F00407C32 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98386C8E2043CB9F00407C32 /* BaseViewController.swift */; };
+		98386C922043D07800407C32 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98386C912043D07800407C32 /* About.swift */; };
+		98386C9C2044286700407C32 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98386C9B2044286700407C32 /* History.swift */; };
+		98386C9E2044287300407C32 /* Poster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98386C9D2044287300407C32 /* Poster.swift */; };
+		98386CA02044320E00407C32 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98386C9F2044320E00407C32 /* PosterCell.swift */; };
+		988826012042F8E90030EC6E /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988826002042F8E90030EC6E /* FoodData.swift */; };
+		98950FA8204D842600E776FD /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98950FA7204D842600E776FD /* PosterData.swift */; };
+		98950FAA204D849900E776FD /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98950FA9204D849900E776FD /* PhotoData.swift */; };
+		98F8B691204693A90060128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F8B690204693A90060128F /* LaunchScreen.storyboard */; };
+		98F8B694204CEEE10060128F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8B693204CEEE10060128F /* Photo.swift */; };
+		98F8B698204CF1400060128F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8B697204CF1400060128F /* PhotoCell.swift */; };
+		98FE38C72042880F00E003EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE38C62042880F00E003EC /* AppDelegate.swift */; };
+		98FE38C92042880F00E003EC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE38C82042880F00E003EC /* MapViewController.swift */; };
+		98FE38CC2042880F00E003EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FE38CA2042880F00E003EC /* Main.storyboard */; };
+		98FE38CE2042880F00E003EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FE38CD2042880F00E003EC /* Assets.xcassets */; };
+		98FE38D92042898300E003EC /* ApiGatewayMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FE38D82042898300E003EC /* ApiGatewayMac.framework */; };
+		98FE38DA2042898300E003EC /* ApiGatewayMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98FE38D82042898300E003EC /* ApiGatewayMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FE38DE2042899300E003EC /* NMapViewerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FE38DD2042899300E003EC /* NMapViewerSDK.framework */; };
+		98FE38E22042CE8A00E003EC /* NMapViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE38E12042CE8A00E003EC /* NMapViewResources.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		98FE38DB2042898400E003EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98FE38DA2042898300E003EC /* ApiGatewayMac.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		98386C8D2043CB9F00407C32 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "../../../../../Downloads/AKSwiftSlideMenu-4.0/AKSwiftSlideMenu/MenuViewController.swift"; sourceTree = "<group>"; };
+		98386C8E2043CB9F00407C32 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = "../../../../../Downloads/AKSwiftSlideMenu-4.0/AKSwiftSlideMenu/BaseViewController.swift"; sourceTree = "<group>"; };
+		98386C912043D07800407C32 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		98386C9B2044286700407C32 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		98386C9D2044287300407C32 /* Poster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poster.swift; sourceTree = "<group>"; };
+		98386C9F2044320E00407C32 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		988826002042F8E90030EC6E /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		98950FA7204D842600E776FD /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		98950FA9204D849900E776FD /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		98F8B690204693A90060128F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98F8B692204699520060128F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98F8B693204CEEE10060128F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		98F8B697204CF1400060128F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		98FE38C32042880F00E003EC /* SejinNaverMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SejinNaverMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FE38C62042880F00E003EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98FE38C82042880F00E003EC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		98FE38CB2042880F00E003EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FE38CD2042880F00E003EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FE38D22042880F00E003EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FE38D82042898300E003EC /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApiGatewayMac.framework; path = Frameworks/ApiGatewayMac.framework; sourceTree = "<group>"; };
+		98FE38DD2042899300E003EC /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = Frameworks/NMapViewerSDK.framework; sourceTree = "<group>"; };
+		98FE38E020428B0500E003EC /* SejinNaverMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SejinNaverMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		98FE38E12042CE8A00E003EC /* NMapViewResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMapViewResources.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FE38C02042880F00E003EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FE38DE2042899300E003EC /* NMapViewerSDK.framework in Frameworks */,
+				98FE38D92042898300E003EC /* ApiGatewayMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98FE38BA2042880F00E003EC = {
+			isa = PBXGroup;
+			children = (
+				98FE38D82042898300E003EC /* ApiGatewayMac.framework */,
+				98FE38C52042880F00E003EC /* SejinNaverMap */,
+				98FE38C42042880F00E003EC /* Products */,
+				98FE38DC2042899300E003EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98FE38C42042880F00E003EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FE38C32042880F00E003EC /* SejinNaverMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FE38C52042880F00E003EC /* SejinNaverMap */ = {
+			isa = PBXGroup;
+			children = (
+				98F8B692204699520060128F /* README.md */,
+				98FE38C62042880F00E003EC /* AppDelegate.swift */,
+				98386C8E2043CB9F00407C32 /* BaseViewController.swift */,
+				98386C8D2043CB9F00407C32 /* MenuViewController.swift */,
+				98FE38C82042880F00E003EC /* MapViewController.swift */,
+				98FE38E12042CE8A00E003EC /* NMapViewResources.swift */,
+				98386C912043D07800407C32 /* About.swift */,
+				98386C9D2044287300407C32 /* Poster.swift */,
+				98386C9F2044320E00407C32 /* PosterCell.swift */,
+				98F8B693204CEEE10060128F /* Photo.swift */,
+				98F8B697204CF1400060128F /* PhotoCell.swift */,
+				98386C9B2044286700407C32 /* History.swift */,
+				98FE38E020428B0500E003EC /* SejinNaverMap-Bridging-Header.h */,
+				98FE38CA2042880F00E003EC /* Main.storyboard */,
+				98F8B690204693A90060128F /* LaunchScreen.storyboard */,
+				98FE38CD2042880F00E003EC /* Assets.xcassets */,
+				98FE38D22042880F00E003EC /* Info.plist */,
+				988826002042F8E90030EC6E /* FoodData.swift */,
+				98950FA7204D842600E776FD /* PosterData.swift */,
+				98950FA9204D849900E776FD /* PhotoData.swift */,
+			);
+			path = SejinNaverMap;
+			sourceTree = "<group>";
+		};
+		98FE38DC2042899300E003EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98FE38DD2042899300E003EC /* NMapViewerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FE38C22042880F00E003EC /* SejinNaverMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FE38D52042880F00E003EC /* Build configuration list for PBXNativeTarget "SejinNaverMap" */;
+			buildPhases = (
+				98FE38BF2042880F00E003EC /* Sources */,
+				98FE38C02042880F00E003EC /* Frameworks */,
+				98FE38C12042880F00E003EC /* Resources */,
+				98FE38DB2042898400E003EC /* Embed Frameworks */,
+				98FE38DF20428A3900E003EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SejinNaverMap;
+			productName = SejinNaverMap;
+			productReference = 98FE38C32042880F00E003EC /* SejinNaverMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FE38BB2042880F00E003EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = 3zin;
+				TargetAttributes = {
+					98FE38C22042880F00E003EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98FE38BE2042880F00E003EC /* Build configuration list for PBXProject "SejinNaverMap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FE38BA2042880F00E003EC;
+			productRefGroup = 98FE38C42042880F00E003EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FE38C22042880F00E003EC /* SejinNaverMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FE38C12042880F00E003EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8B691204693A90060128F /* LaunchScreen.storyboard in Resources */,
+				98FE38CE2042880F00E003EC /* Assets.xcassets in Resources */,
+				98FE38CC2042880F00E003EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98FE38DF20428A3900E003EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh Scripts/strip-frameworks.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FE38BF2042880F00E003EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FE38C92042880F00E003EC /* MapViewController.swift in Sources */,
+				98386C922043D07800407C32 /* About.swift in Sources */,
+				98386C9C2044286700407C32 /* History.swift in Sources */,
+				98386C8F2043CB9F00407C32 /* MenuViewController.swift in Sources */,
+				98F8B698204CF1400060128F /* PhotoCell.swift in Sources */,
+				98FE38E22042CE8A00E003EC /* NMapViewResources.swift in Sources */,
+				98F8B694204CEEE10060128F /* Photo.swift in Sources */,
+				98386C9E2044287300407C32 /* Poster.swift in Sources */,
+				98386CA02044320E00407C32 /* PosterCell.swift in Sources */,
+				98FE38C72042880F00E003EC /* AppDelegate.swift in Sources */,
+				98950FAA204D849900E776FD /* PhotoData.swift in Sources */,
+				98950FA8204D842600E776FD /* PosterData.swift in Sources */,
+				988826012042F8E90030EC6E /* FoodData.swift in Sources */,
+				98386C902043CB9F00407C32 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98FE38CA2042880F00E003EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FE38CB2042880F00E003EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FE38D32042880F00E003EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98FE38D42042880F00E003EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FE38D62042880F00E003EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAYKWAXJ9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SejinNaverMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhnSeJin.SejinNaverMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/SejinNaverMap-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98FE38D72042880F00E003EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAYKWAXJ9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SejinNaverMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhnSeJin.SejinNaverMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FE38BE2042880F00E003EC /* Build configuration list for PBXProject "SejinNaverMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FE38D32042880F00E003EC /* Debug */,
+				98FE38D42042880F00E003EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FE38D52042880F00E003EC /* Build configuration list for PBXNativeTarget "SejinNaverMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FE38D62042880F00E003EC /* Debug */,
+				98FE38D72042880F00E003EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FE38BB2042880F00E003EC /* Project object */;
+}
