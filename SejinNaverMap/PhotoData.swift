@@ -10,4 +10,16 @@ import Foundation
 
 // Photo 내부 CollectionViewController에 spread 할 사진 정보를 저장하는 data source 클래스
 
-let photoImage:[UIImage] = [UIImage(named:"photo_1")!, UIImage(named:"photo_2")!, UIImage(named:"photo_3")!, UIImage(named:"photo_4")!, UIImage(named:"photo_5")!, UIImage(named:"photo_6")!, UIImage(named:"photo_7")!, UIImage(named:"photo_8")!]
+class PhotoData{
+
+    var photoImage:[UIImage] = []
+
+    init(){
+        for index in (1...95) {
+            photoImage.append(UIImage(named:"photo_" + String(index))!)
+        }
+    }
+}
+
+// 사진 데이터는 여기에
+let photos = PhotoData()

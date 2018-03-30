@@ -16,6 +16,9 @@
 		988826012042F8E90030EC6E /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988826002042F8E90030EC6E /* FoodData.swift */; };
 		98950FA8204D842600E776FD /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98950FA7204D842600E776FD /* PosterData.swift */; };
 		98950FAA204D849900E776FD /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98950FA9204D849900E776FD /* PhotoData.swift */; };
+		9895105B2054240000E776FD /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895105A2054240000E776FD /* BookData.swift */; };
+		9895105D205425E700E776FD /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895105C205425E700E776FD /* HistoryCell.swift */; };
+		98CEA0AF2067FD4800E4ECF4 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CEA0AE2067FD4800E4ECF4 /* HistoryView.swift */; };
 		98F8B691204693A90060128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F8B690204693A90060128F /* LaunchScreen.storyboard */; };
 		98F8B694204CEEE10060128F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8B693204CEEE10060128F /* Photo.swift */; };
 		98F8B698204CF1400060128F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8B697204CF1400060128F /* PhotoCell.swift */; };
@@ -53,6 +56,9 @@
 		988826002042F8E90030EC6E /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 		98950FA7204D842600E776FD /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
 		98950FA9204D849900E776FD /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		9895105A2054240000E776FD /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		9895105C205425E700E776FD /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		98CEA0AE2067FD4800E4ECF4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		98F8B690204693A90060128F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F8B692204699520060128F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		98F8B693204CEEE10060128F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -115,6 +121,8 @@
 				98F8B693204CEEE10060128F /* Photo.swift */,
 				98F8B697204CF1400060128F /* PhotoCell.swift */,
 				98386C9B2044286700407C32 /* History.swift */,
+				9895105C205425E700E776FD /* HistoryCell.swift */,
+				98CEA0AE2067FD4800E4ECF4 /* HistoryView.swift */,
 				98FE38E020428B0500E003EC /* SejinNaverMap-Bridging-Header.h */,
 				98FE38CA2042880F00E003EC /* Main.storyboard */,
 				98F8B690204693A90060128F /* LaunchScreen.storyboard */,
@@ -123,6 +131,7 @@
 				988826002042F8E90030EC6E /* FoodData.swift */,
 				98950FA7204D842600E776FD /* PosterData.swift */,
 				98950FA9204D849900E776FD /* PhotoData.swift */,
+				9895105A2054240000E776FD /* BookData.swift */,
 			);
 			path = SejinNaverMap;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 				98386C9C2044286700407C32 /* History.swift in Sources */,
 				98386C8F2043CB9F00407C32 /* MenuViewController.swift in Sources */,
 				98F8B698204CF1400060128F /* PhotoCell.swift in Sources */,
+				9895105B2054240000E776FD /* BookData.swift in Sources */,
 				98FE38E22042CE8A00E003EC /* NMapViewResources.swift in Sources */,
 				98F8B694204CEEE10060128F /* Photo.swift in Sources */,
 				98386C9E2044287300407C32 /* Poster.swift in Sources */,
@@ -238,6 +248,8 @@
 				98950FAA204D849900E776FD /* PhotoData.swift in Sources */,
 				98950FA8204D842600E776FD /* PosterData.swift in Sources */,
 				988826012042F8E90030EC6E /* FoodData.swift in Sources */,
+				9895105D205425E700E776FD /* HistoryCell.swift in Sources */,
+				98CEA0AF2067FD4800E4ECF4 /* HistoryView.swift in Sources */,
 				98386C902043CB9F00407C32 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
