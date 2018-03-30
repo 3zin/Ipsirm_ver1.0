@@ -14,7 +14,7 @@ class Photo: BaseViewController, UICollectionViewDelegate, UICollectionViewDataS
     
     //delegate : 섹션 개수 반환
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return photoImage.count
+        return photos.photoImage.count
     }
     
     
@@ -23,7 +23,7 @@ class Photo: BaseViewController, UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PhotoCell", for: indexPath) as! PhotoCell
         
-        cell.photoImageView.image = photoImage[indexPath.item]
+        cell.photoImageView.image = photos.photoImage[indexPath.item]
         return cell
     }
     
@@ -31,7 +31,7 @@ class Photo: BaseViewController, UICollectionViewDelegate, UICollectionViewDataS
     //delegate : 화면에 띄울 셀의 크기 동적 조정 (가로 세로 비율을 사용해서 임시방편으로 맞춤) -> 추후에는 Dynamic self-sizing으로..
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let image = photoImage[indexPath.item]
+        let image = photos.photoImage[indexPath.item]
         
         let height = image.size.height
         let width = image.size.width
@@ -176,16 +176,5 @@ class Photo: BaseViewController, UICollectionViewDelegate, UICollectionViewDataS
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
