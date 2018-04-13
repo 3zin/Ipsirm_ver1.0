@@ -1,6 +1,8 @@
 입씨름 Application ver.1.0 (2018.3.31.)
 ===================
 
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Main.png)
+
 (1) 취지
 --------
 
@@ -24,11 +26,15 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 2. MapViewController, NMapViewResources, FoodData
 
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Food.png)
+
 - 네이버 지도 API를 사용했습니다 *(https://developers.naver.com/docs/map/overview/)*
 - 마커를 클릭할 시 FoodData 내에 저장된 맛집 정보가 pop up 됩니다.
 - 기본 지도 이외에도 인공위성이나 하이브리드 시점으로 보는 것이 가능하게 상단 바에 버튼을 배치했습니다.
 
 3. About
+
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/About.png)
 
 - <입씨름>과 멤버 소개가 위치한 섹션입니다.
 - 변경될 일이 없기 때문에 스토리보드를 사용해서 static하게 구현했습니다.
@@ -36,11 +42,16 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 4. HistoryCell, HistoryView, BookData
 
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/History_1.png)
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/History_2.png)
+
 - <입씨름>각 회차의 독서 모임 정보가 기록된 섹션입니다.
 - Table View로 구현하였으며, 각 셀을 클릭할 시 BookData 내에 저장된 책 정보가 나옵니다.
 - 책 정보가 표시되는 HistoryView를 Modal View로 구현하고 싶었으나 능력과 시간 부족으로 Navigation View로 편하게 구현했습니다
 
 5. Photo, PhotoCell, PhotoData
+
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Photo.png)
 
 - <입씨름> 사진들이 기록된 섹션입니다.
 - Collection View로 구현하였으며, 각 사진을 클릭할 시 사진이 전체화면으로 바뀌며, 핀치 제스처로 확대 및 저장이 가능합니다.
@@ -48,6 +59,8 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 - 어떻게 해야 할 지 모르겠어서 사진을 일단 어플리케이션 내부에 다 담아놓는 바람에 로딩하는 데 시간이 약간 걸립니다
 
 6. Poster, PosterCell, PosterDataHistory,
+
+![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Poster.png)
 
 - 김시준 군이 제작한 <입씨름> 포스터가 위치한 섹션입니다.
 - Collection View로 구현하였으며, 각 포스터를 클릭할 시 포스터가 전체화면으로 바뀝니다.
