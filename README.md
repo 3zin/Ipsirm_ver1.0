@@ -18,7 +18,7 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 --------
     
 ## 1. BaseViewController, MenuViewController
--------------------------------------------------
+
 - 화면 좌측에 표시되는 사이드 바입니다. 만들기가 귀찮았기 때문에 **Ashish Kakkad**의 open-source 프로젝트를 알맞게 수정해서 사용했습니다 *(http://ashishkakkad.com/2015/09/create-your-own-slider-menu-drawer-in-swift)*.
 - MenuViewController가 뼈대이며 BaseViewController는 실제 사이드바의 기능과 모습을 조정합니다. 사이드 바를 사용하게 될 뷰는 모두 UIViewController 대신 BaseViewController를 상속받게 됩니다.
 - 기본적으로 view는 stack 형식으로 쌓이게 되며 그로 인한 메모리 소모가 엄청나지만 그냥 수정하지 않았습니다.
