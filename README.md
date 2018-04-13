@@ -1,7 +1,7 @@
 입씨름 Application ver.1.0 (2018.3.31.)
 ===================
 
-<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Main.imageset/Main.png" width="200">
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Main.imageset/Main.png" width="300">
 
 (1) 취지
 --------
@@ -26,7 +26,7 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 2. MapViewController, NMapViewResources, FoodData
 
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Food.imageset/Food.png)
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Food.imageset/Food.png" width="300">
 
 - 네이버 지도 API를 사용했습니다 *(https://developers.naver.com/docs/map/overview/)*
 - 마커를 클릭할 시 FoodData 내에 저장된 맛집 정보가 pop up 됩니다.
@@ -34,7 +34,7 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 3. About
 
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/About.imageset/About.png)
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/About.imageset/About.png" width="300">
 
 - <입씨름>과 멤버 소개가 위치한 섹션입니다.
 - 변경될 일이 없기 때문에 스토리보드를 사용해서 static하게 구현했습니다.
@@ -42,8 +42,7 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 4. HistoryCell, HistoryView, BookData
 
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/History_1.imageset/History_1.png)
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/History_2.imageset/History_2.png)
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/History_1.imageset/History_1.png" width="300"> <img src="./SejinNaverMap/Assets.xcassets/MarkDown/History_2.imageset/History_2.png" width="300">
 
 - <입씨름>각 회차의 독서 모임 정보가 기록된 섹션입니다.
 - Table View로 구현하였으며, 각 셀을 클릭할 시 BookData 내에 저장된 책 정보가 나옵니다.
@@ -51,7 +50,7 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 5. Photo, PhotoCell, PhotoData
 
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Photo.imageset/hoto.png)
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Photo.imageset/hoto.png" width="300">
 
 - <입씨름> 사진들이 기록된 섹션입니다.
 - Collection View로 구현하였으며, 각 사진을 클릭할 시 사진이 전체화면으로 바뀌며, 핀치 제스처로 확대 및 저장이 가능합니다.
@@ -60,7 +59,7 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 
 6. Poster, PosterCell, PosterDataHistory,
 
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Poster.imageset/Poster.png)
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Poster.imageset/Poster.png" width="300">
 
 - 김시준 군이 제작한 <입씨름> 포스터가 위치한 섹션입니다.
 - Collection View로 구현하였으며, 각 포스터를 클릭할 시 포스터가 전체화면으로 바뀝니다.
