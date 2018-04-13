@@ -17,53 +17,62 @@ ios 개발 공부를 처음 시작한 시점에서 교재 아무거나 읽고 �
 (2) 설명
 --------
     
-1. BaseViewController, MenuViewController
-
+## 1. BaseViewController, MenuViewController
+-------------------------------------------------
 - 화면 좌측에 표시되는 사이드 바입니다. 만들기가 귀찮았기 때문에 **Ashish Kakkad**의 open-source 프로젝트를 알맞게 수정해서 사용했습니다 *(http://ashishkakkad.com/2015/09/create-your-own-slider-menu-drawer-in-swift)*.
 - MenuViewController가 뼈대이며 BaseViewController는 실제 사이드바의 기능과 모습을 조정합니다. 사이드 바를 사용하게 될 뷰는 모두 UIViewController 대신 BaseViewController를 상속받게 됩니다.
 - 기본적으로 view는 stack 형식으로 쌓이게 되며 그로 인한 메모리 소모가 엄청나지만 그냥 수정하지 않았습니다.
+***
 
 
-2. MapViewController, NMapViewResources, FoodData
+## 2. MapViewController, NMapViewResources, FoodData
 
 <img src="./SejinNaverMap/Assets.xcassets/MarkDown/Food.imageset/Food.png" width="300">
 
 - 네이버 지도 API를 사용했습니다 *(https://developers.naver.com/docs/map/overview/)*
 - 마커를 클릭할 시 FoodData 내에 저장된 맛집 정보가 pop up 됩니다.
 - 기본 지도 이외에도 인공위성이나 하이브리드 시점으로 보는 것이 가능하게 상단 바에 버튼을 배치했습니다.
+***
 
-3. About
+
+## 3. About
 
 <img src="./SejinNaverMap/Assets.xcassets/MarkDown/About.imageset/About.png" width="300">
 
 - <입씨름>과 멤버 소개가 위치한 섹션입니다.
 - 변경될 일이 없기 때문에 스토리보드를 사용해서 static하게 구현했습니다.
 - 괴물 이미지를 클릭 시 작은 애니메이션이 발생합니다.
+***
 
-4. HistoryCell, HistoryView, BookData
+
+## 4. HistoryCell, HistoryView, BookData
 
 <img src="./SejinNaverMap/Assets.xcassets/MarkDown/History_1.imageset/History_1.png" width="300"> <img src="./SejinNaverMap/Assets.xcassets/MarkDown/History_2.imageset/History_2.png" width="300">
 
 - <입씨름>각 회차의 독서 모임 정보가 기록된 섹션입니다.
 - Table View로 구현하였으며, 각 셀을 클릭할 시 BookData 내에 저장된 책 정보가 나옵니다.
 - 책 정보가 표시되는 HistoryView를 Modal View로 구현하고 싶었으나 능력과 시간 부족으로 Navigation View로 편하게 구현했습니다
+***
 
-5. Photo, PhotoCell, PhotoData
 
-<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Photo.imageset/hoto.png" width="300">
+## 5. Photo, PhotoCell, PhotoData
+
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Photo.imageset/Photo.png" width="300">
 
 - <입씨름> 사진들이 기록된 섹션입니다.
 - Collection View로 구현하였으며, 각 사진을 클릭할 시 사진이 전체화면으로 바뀌며, 핀치 제스처로 확대 및 저장이 가능합니다.
 - 사진 크기는 PhotoData 내부에 있는 원본 사진 비율에 맞춰 화면 내에서 Dynamic하게 조정됩니다. 사실 dynamic layout을 사용하고 싶었지만 실력부족으로 적당하게 구현했습니다.
 - 어떻게 해야 할 지 모르겠어서 사진을 일단 어플리케이션 내부에 다 담아놓는 바람에 로딩하는 데 시간이 약간 걸립니다
+***
 
-6. Poster, PosterCell, PosterDataHistory,
+
+## 6. Poster, PosterCell, PosterDataHistory,
 
 <img src="./SejinNaverMap/Assets.xcassets/MarkDown/Poster.imageset/Poster.png" width="300">
 
 - 김시준 군이 제작한 <입씨름> 포스터가 위치한 섹션입니다.
 - Collection View로 구현하였으며, 각 포스터를 클릭할 시 포스터가 전체화면으로 바뀝니다.
-
+***
 
 
 (3) 한계
