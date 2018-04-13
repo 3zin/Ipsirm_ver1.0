@@ -91,6 +91,7 @@
 		98FE38BA2042880F00E003EC = {
 			isa = PBXGroup;
 			children = (
+				98F8B692204699520060128F /* README.md */,
 				98FE38D82042898300E003EC /* ApiGatewayMac.framework */,
 				98FE38C52042880F00E003EC /* SejinNaverMap */,
 				98FE38C42042880F00E003EC /* Products */,
@@ -109,7 +110,6 @@
 		98FE38C52042880F00E003EC /* SejinNaverMap */ = {
 			isa = PBXGroup;
 			children = (
-				98F8B692204699520060128F /* README.md */,
 				98FE38C62042880F00E003EC /* AppDelegate.swift */,
 				98386C8E2043CB9F00407C32 /* BaseViewController.swift */,
 				98386C8D2043CB9F00407C32 /* MenuViewController.swift */,
@@ -386,6 +386,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = SejinNaverMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -410,6 +411,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = SejinNaverMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AhnSeJin.SejinNaverMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
