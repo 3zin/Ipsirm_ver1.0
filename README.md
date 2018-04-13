@@ -1,7 +1,7 @@
 입씨름 Application ver.1.0 (2018.3.31.)
 ===================
 
-![Alt text](./SejinNaverMap/Assets.xcassets/MarkDown/Main.imageset/Main.png=250x)
+<img src="./SejinNaverMap/Assets.xcassets/MarkDown/Main.imageset/Main.png" width="200">
 
 (1) 취지
 --------
